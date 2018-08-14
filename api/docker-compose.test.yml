@@ -1,0 +1,14 @@
+version: '2'
+services:
+  mongo:
+    container_name: mongotest
+    image: mongo
+    ports:
+    - "27017:27017"
+  api-test:
+    environment:
+    - NODE_ENV=development
+    container_name: api-test
+    image: api-test
+    depends_on:
+    - mongo
