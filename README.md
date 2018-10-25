@@ -1,4 +1,4 @@
-# Toolbox Demo by Hernan Esteves
+# Interview Demo using Redux/React by Hernan Esteves
 ### Requirements
 * Docker + Docker-compose
 
